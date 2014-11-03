@@ -1,0 +1,6 @@
+//neue Fahrzeuge ordern
+
+hint foramt ["Ein ",vehorder_vehicle," wurde bestellt. Er wird an den Hafen in ",vehorder_marker," geliefert und ist in wenigen Minuten da."];
+sleep 30;
+createVehicle [vehorder_vehicle, getMarkerPos vehorder_marker,[],1,"None"];
+hint format ["Der ",vehorder_vehicle,"  steht zur Abholung am Hafen in",vehorder_marker," bereit."];

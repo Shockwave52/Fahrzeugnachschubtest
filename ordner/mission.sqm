@@ -1,0 +1,183 @@
+version=12;
+class Mission
+{
+	addOns[]=
+	{
+		"BWA3_Units",
+		"bornholm",
+		"sud_euf"
+	};
+	addOnsAuto[]=
+	{
+		"BWA3_Units",
+		"sud_euf",
+		"bornholm"
+	};
+	randomSeed=11558899;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.44999999;
+		startFog=0.1;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastFog=0.1;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2014;
+		day=14;
+		hour=10;
+		minute=0;
+		startFogBase=1;
+		forecastFogBase=1;
+		startFogDecay=0.039999999;
+		forecastFogDecay=0.039999999;
+	};
+	class Groups
+	{
+		items=1;
+		class Item0
+		{
+			side="WEST";
+			class Vehicles
+			{
+				items=1;
+				class Item0
+				{
+					position[]={830.3703,1.8209164,7065.5352};
+					id=0;
+					side="WEST";
+					vehicle="BWA3_Rifleman_Fleck";
+					player="PLAYER COMMANDER";
+					leader=1;
+					skill=0.60000002;
+				};
+			};
+		};
+	};
+	class Vehicles
+	{
+		items=1;
+		class Item0
+		{
+			position[]={830.39166,1.8246294,7068.4644};
+			id=1;
+			side="EMPTY";
+			vehicle="SUD_Display";
+			leader=1;
+			skill=0.60000002;
+			init="this addAction [""Tiger bestellen"", ""calldialog.sqf""];";
+		};
+	};
+	class Markers
+	{
+		items=1;
+		class Item0
+		{
+			position[]={814.30804,1.5280799,7082.8291};
+			name="orderveh";
+			type="mil_destroy";
+		};
+	};
+};
+class Intro
+{
+	addOns[]=
+	{
+		"bornholm"
+	};
+	addOnsAuto[]=
+	{
+		"bornholm"
+	};
+	randomSeed=2963268;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.44999999;
+		startFog=0.1;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastFog=0.1;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2014;
+		day=14;
+		hour=10;
+		minute=0;
+		startFogBase=1;
+		forecastFogBase=1;
+		startFogDecay=0.039999999;
+		forecastFogDecay=0.039999999;
+	};
+};
+class OutroWin
+{
+	addOns[]=
+	{
+		"bornholm"
+	};
+	addOnsAuto[]=
+	{
+		"bornholm"
+	};
+	randomSeed=7228946;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.44999999;
+		startFog=0.1;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastFog=0.1;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2014;
+		day=14;
+		hour=10;
+		minute=0;
+		startFogBase=1;
+		forecastFogBase=1;
+		startFogDecay=0.039999999;
+		forecastFogDecay=0.039999999;
+	};
+};
+class OutroLoose
+{
+	addOns[]=
+	{
+		"bornholm"
+	};
+	addOnsAuto[]=
+	{
+		"bornholm"
+	};
+	randomSeed=7281267;
+	class Intel
+	{
+		timeOfChanges=1800.0002;
+		startWeather=0.44999999;
+		startFog=0.1;
+		startWind=0.1;
+		startWaves=0.1;
+		forecastWeather=0.30000001;
+		forecastFog=0.1;
+		forecastWind=0.1;
+		forecastWaves=0.1;
+		forecastLightnings=0.1;
+		year=2014;
+		day=14;
+		hour=10;
+		minute=0;
+		startFogBase=1;
+		forecastFogBase=1;
+		startFogDecay=0.039999999;
+		forecastFogDecay=0.039999999;
+	};
+};
