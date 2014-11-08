@@ -2,8 +2,7 @@ class ICE_DIALOG
 {
     idd = 10000;
     movingenable = true;
-	onLoad = "fillList";
-	
+		
 class controls
 {
 
@@ -42,8 +41,7 @@ class vehorder_List: RscListbox
 	y = 0.313 * safezoneH + safezoneY;
 	w = 0.383029 * safezoneW;
 	h = 0.363 * safezoneH;
-	onLBSelChanged="call execute;";
-
+	
 };
 class vehorder_butspawnloc: RscButton
 {
@@ -54,6 +52,7 @@ class vehorder_butspawnloc: RscButton
 	w = 0.0879931 * safezoneW;
 	h = 0.055 * safezoneH;
 	action = "_nil=ExecVM ""execute.sqf""";
+	action = "_null = [lbCurSel 1500] spawn "execute.sqf"); closeDialog 0; ";
 };
 class vehorder_cancel: RscButton
 {
