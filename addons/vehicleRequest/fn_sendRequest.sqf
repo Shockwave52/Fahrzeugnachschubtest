@@ -9,6 +9,6 @@
 private [];
 
 // vars
-_vehicle = [_this, 0, ""] call BIS_fnc_param;
+_vehicleCfgID = [_this, 0, 0] call BIS_fnc_param;
 
-[[player, _vehicle], "TDC_vehReq_fnc_receiveRequest", false] call BIS_fnc_MP;
+[[player, _vehicleCfgID], "TDC_vehReq_fnc_receiveRequest", false] call BIS_fnc_MP;
