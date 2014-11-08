@@ -59,7 +59,7 @@ class Mission
 	};
 	class Vehicles
 	{
-		items=1;
+		items=2;
 		class Item0
 		{
 			position[]={830.39166,1.8246294,7068.4644};
@@ -69,6 +69,16 @@ class Mission
 			leader=1;
 			skill=0.60000002;
 			init="this addAction [""Tiger bestellen"", ""calldialog.sqf""];";
+		};
+		class Item1
+		{
+			position[]={841.70953,1.788476,7066.9858};
+			id=2;
+			side="EMPTY";
+			vehicle="SUD_Display";
+			leader=1;
+			skill=0.60000002;
+			init="this addAction [""exe"", ""execute.sqf""];";
 		};
 	};
 	class Markers
