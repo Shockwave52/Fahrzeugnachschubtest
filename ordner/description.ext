@@ -1,2 +1,7 @@
-#include "defines.hpp"
-#include "dialogs.hpp"
+#include "addons\vehicleRequest\defines.hpp"
+#include "addons\vehicleRequest\dialogs.hpp"
+
+class CfgFunctions
+{
+	#include "addons\vehicleRequest\CfgFunctions.h" 
+};
