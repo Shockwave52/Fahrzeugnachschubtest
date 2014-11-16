@@ -20,24 +20,21 @@ while {true} do
 	
 	if (count TDC_vehReq_serverQueue > 0) then
 	{
-
-		_queueItem = TDC_vehReq_serverQueue select 0;
-		_className = _queueItem select 1;
-		
 		hint "queue";
-		sleep _reqWaitTime;
-	
+		sleep 1;
+
+		_queueItem = ((TDC_vehReq_serverQueue select 0) select 0);
+		_className = ((TDC_vehReq_config select _queueItem) select 1);
+
 		// check, ob schon etwas am spawn steht, wenn ja, dann ueberspringe spawnsequenz, wenn nicht dann fahrzeug spawnen
-		_nearVeh = getMarkerPos "orderveh" nearEntities [["Air", "Armored", "Car", "Support"], 10];
-		if (count _nearVeh <= 1) then
+		_nearVeh = nearestObjects [getMarkerPos "reqveh",["Air", "Armored", "Car", "Support","BWA3_Puma_Tropen","BWA3_Leopard2A6M_Tropen","BWA3_Puma_Fleck","BWA3_Leopard2A6M_Fleck"], 10];
+		if (count _nearVeh >= 1) then
 		{hint "Ein Fahrzeug ist bereits geliefert und blockiert den Lieferpunkt";}
 		else
 		{
-		hint "else";
-		sleep _reqWaitTime;
 		hint format ["Ein %1 wurde bestellt und wird an den Lieferpunkt geliefert.",_classname];
 		sleep _reqWaitTime;
-		createVehicle ["_classname", getMarkerPos "orderveh",[],1,"None"];
+		createVehicle [_classname, getMarkerPos "reqveh",[],1,"None"];
 		hint format ["Ein %1 steht zur Abholung am Hafen bereit.",_classname];
 		};
 	

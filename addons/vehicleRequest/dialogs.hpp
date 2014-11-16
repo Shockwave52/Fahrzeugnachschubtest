@@ -51,7 +51,7 @@ class vehorder_butspawnloc: RscButton
 	y = 0.698 * safezoneH + safezoneY;
 	w = 0.0879931 * safezoneW;
 	h = 0.055 * safezoneH;
-	action = "_null = [lbCurSel 1500] spawn TDC_vehReq_fnc_sendRequest); closeDialog 0; ";
+	action = "_null = [lbCurSel 1500] spawn TDC_vehReq_fnc_sendRequest; closeDialog 0; ";
 };
 class vehorder_cancel: RscButton
 {

@@ -4,28 +4,25 @@ class Mission
 	addOns[]=
 	{
 		"BWA3_Units",
-		"bornholm",
-		"sud_euf"
+		"bornholm"
 	};
 	addOnsAuto[]=
 	{
 		"BWA3_Units",
-		"sud_euf",
 		"bornholm"
 	};
 	randomSeed=11558899;
 	class Intel
 	{
-		timeOfChanges=1800.0002;
 		startWeather=0.44999999;
-		startFog=0.1;
-		startWind=0.1;
-		startWaves=0.1;
-		forecastWeather=0.30000001;
-		forecastFog=0.1;
-		forecastWind=0.1;
-		forecastWaves=0.1;
-		forecastLightnings=0.1;
+		startFog=0.099999994;
+		startWind=0.099999994;
+		startWaves=0.099999994;
+		forecastWeather=0.29999998;
+		forecastFog=0.099999994;
+		forecastWind=0.099999994;
+		forecastWaves=0.099999994;
+		forecastLightnings=0.099999994;
 		year=2014;
 		day=14;
 		hour=10;
@@ -57,37 +54,13 @@ class Mission
 			};
 		};
 	};
-	class Vehicles
-	{
-		items=2;
-		class Item0
-		{
-			position[]={830.39166,1.8246294,7068.4644};
-			id=1;
-			side="EMPTY";
-			vehicle="SUD_Display";
-			leader=1;
-			skill=0.60000002;
-			init="this addAction [""Tiger bestellen"", ""calldialog.sqf""];";
-		};
-		class Item1
-		{
-			position[]={841.70953,1.788476,7066.9858};
-			id=2;
-			side="EMPTY";
-			vehicle="SUD_Display";
-			leader=1;
-			skill=0.60000002;
-			init="this addAction [""exe"", ""execute.sqf""];";
-		};
-	};
 	class Markers
 	{
 		items=1;
 		class Item0
 		{
-			position[]={814.30804,1.5280799,7082.8291};
-			name="orderveh";
+			position[]={842.31842,1.7990537,7064.7319};
+			name="reqveh";
 			type="mil_destroy";
 		};
 	};
