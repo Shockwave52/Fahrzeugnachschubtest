@@ -10,5 +10,6 @@ class TDC_vehReq
 				
 		class showDialog;
 		class sendRequest;
+		class messageTo;
 	};
 };
