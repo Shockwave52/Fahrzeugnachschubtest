@@ -15,6 +15,5 @@ _vehicleCfgID = [_this, 1, 0] call BIS_fnc_param;
 TDC_vehReq_serverQueue pushBack [_vehicleCfgID,_caller];
 
 //Nachricht zurueck an _caller, dass in Warteschlange aufgenommen oae.
-//_chosenVeh = _vehicleCfgID;
 _ingameName = ((TDC_vehReq_config select _vehicleCfgID) select 0);
 [["Die Bestellung: 1 %1 ist eingegangen und wird bearbeitet.", _ingameName],"TDC_vehReq_fnc_messageTo",(owner _caller)] call BIS_fnc_MP;
