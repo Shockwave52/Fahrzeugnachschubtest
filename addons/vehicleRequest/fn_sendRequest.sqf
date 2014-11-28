@@ -1,9 +1,9 @@
 /**
 * fn_sendRequest.sqf 
 * @Descr: -
-* @Author: -
+* @Author: TDC | Shockwave & TDC | insane
 *
-* @Arguments: -
+* @Arguments: Listselection(-> Vehicle Config ID)
 * @Return: -
 */
 private [];

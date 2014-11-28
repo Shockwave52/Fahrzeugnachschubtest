@@ -43,11 +43,11 @@ class Mission
 				items=1;
 				class Item0
 				{
-					position[]={830.3703,1.8209164,7065.5352};
+					position[]={789.00378,1.9993838,7106.1152};
 					id=0;
 					side="WEST";
 					vehicle="BWA3_Rifleman_Fleck";
-					player="PLAYER COMMANDER";
+					player="PLAY CDG";
 					leader=1;
 					skill=0.60000002;
 				};
@@ -59,7 +59,7 @@ class Mission
 		items=1;
 		class Item0
 		{
-			position[]={842.31842,1.7990537,7064.7319};
+			position[]={788.5658,2.047143,7128.6328};
 			name="reqveh";
 			type="mil_destroy";
 		};

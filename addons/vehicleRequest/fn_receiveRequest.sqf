@@ -1,9 +1,9 @@
 /**
 * fn_receiveRequest.sqf 
 * @Descr: -
-* @Author: -
+* @Author: TDC | Shockwave & TDC | insane
 *
-* @Arguments: -
+* @Arguments: Vehicle Config ID; caller
 * @Return: -
 */
 private [];

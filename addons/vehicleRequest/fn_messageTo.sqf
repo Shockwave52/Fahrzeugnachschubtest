@@ -1,9 +1,9 @@
 /**
 * fn_messageTo.sqf 
 * @Descr: -
-* @Author: -
+* @Author: TDC | Shockwave
 *
-* @Arguments: -
+* @Arguments: String Message; Vehicle Ingame-Name
 * @Return: -
 */
 private [];

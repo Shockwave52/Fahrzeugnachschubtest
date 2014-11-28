@@ -1,7 +1,7 @@
 /**
 * fn_showDialog.sqf 
 * @Descr: -
-* @Author: -
+* @Author: TDC | Shockwave & TDC | insane
 *
 * @Arguments: -
 * @Return: -
